@@ -14,5 +14,6 @@ def test_exercise_0() -> None:
 def test_exercise_1() -> None:
     # To avoid unexpected behaviour, we want the function increment to raise an error when the input is a boolean.
     # The test is written correctly. Make it pass, by changing the implementation of function increment.
+    increment(True)
     with pytest.raises(expected_exception=TypeError):
         increment(True)

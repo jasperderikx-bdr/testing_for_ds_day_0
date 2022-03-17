@@ -24,10 +24,10 @@ ignore_missing_imports = true
 disable_error_code = [
     "attr-defined"
 ]
-files = [
-    "src/**/*.py",
-    "tests/**/*.py"
-]
+# files = [
+#     "src/**/*.py",
+#     "tests/**/*.py"
+# ]
 
 [tool.pytest.ini_options]
 testpaths = [
