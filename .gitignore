@@ -7,12 +7,11 @@ data/*
 # files after building package
 dist/
 build/
-healt.egg-info/
+*.egg-info/
 
 # Testing
 tests/.pytest_cache/*
 tests/pytest_basetemp/*
-tests/slides/*
 
 # IDE
 __pycache__/
