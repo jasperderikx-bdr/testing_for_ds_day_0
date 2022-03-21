@@ -17,7 +17,7 @@ Don't expect to learn a lot; the main goal is to address if anything is not work
 ## ⚡ Installation
 
 ---
-###1. Virtual Environment
+### 1. Virtual Environment
 
 Create a virtual environment for this repo, for instance with [Anaconda](https://docs.anaconda.com/anaconda/install/):
 
