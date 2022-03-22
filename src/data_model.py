@@ -1,5 +1,3 @@
-# from __future__ import annotations
-
 def increment(x: int) -> int:
     return x + 1
 
