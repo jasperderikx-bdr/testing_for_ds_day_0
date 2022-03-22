@@ -37,11 +37,11 @@ def test_type_error_on_string() -> None:
 class TestEmployee:
     def test_name(self) -> None:
         name = "Anna"
-        employee = Employee(name=name, age=37, salary=1000.0)
+        employee = Employee(name=name, age=37, salary=1000)
         assert employee.name == name
 
     def test_give_raise(self) -> None:
-        start_salary = 1000.0
+        start_salary = 1000
         employee = Employee(name="-", age=37, salary=start_salary)
         employee.give_raise()
         assert employee.salary > start_salary

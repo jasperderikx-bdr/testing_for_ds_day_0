@@ -34,7 +34,8 @@ Note: if you just installed anaconda, you might have to initialize your terminal
 Install the project in develop mode, with:
    
 ```sh
-pip install -e .[develop]
+pip install -e ".[develop]"
+
 ```
 This will install all the dependencies listed in ```requirements.txt``` and ```requirements.dev.txt```. Have a look at them to get an idea with what we're working.
 
@@ -54,9 +55,10 @@ For example, it checks whether you've used type-hinting. See .pre-commit-config.
 
 ```sh
 git checkout -b <branch-name>
-git push
+git push 
 ```
 
+Note: if you run into the error: "The unauthenticated git protocol on port 9418 is no longer supported.", this [stackoverflow page](https://stackoverflow.com/questions/70663523/the-unauthenticated-git-protocol-on-port-9418-is-no-longer-supported) might help.
 
 ## 📋 Assignment
 
@@ -73,7 +75,7 @@ you will see that not all tests pass. Open the file: ```tests\test_exercises``` 
 
 You've completed the assignment if:
 - All tests pass.
-- The pre-commit flags are passed.
+- All pre-commit steps are successful.
 - You committed and pushed your code.
 
 Please let me know if anything is not working!
