@@ -2,7 +2,7 @@
 .git/
 
 data/*
-!data/.gitkeep
+!data/solutions/
 
 # files after building package
 dist/
