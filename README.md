@@ -22,8 +22,8 @@ Don't expect to learn a lot; the main goal is to address if anything is not work
 Create a virtual environment for this repo, for instance with [Anaconda](https://docs.anaconda.com/anaconda/install/):
 
 ```sh
-conda create --name testing_for_data_science -y python=3.7
-conda activate testing_for_data_science
+conda create --name testing_for_ds -y python=3.10
+conda activate testing_for_ds
 ```
 
 You can use the same virtual environment for the whole training.
@@ -76,6 +76,6 @@ you will see that not all tests pass. Open the file: ```tests\test_exercises``` 
 You've completed the assignment if:
 - All tests pass.
 - All pre-commit steps are successful.
-- You committed and pushed your code.
+- You pushed your code to your personal branch.
 
 Please let me know if anything is not working!
