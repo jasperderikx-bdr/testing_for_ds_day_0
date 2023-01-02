@@ -35,7 +35,6 @@ Install the project in develop mode, with:
    
 ```sh
 pip install -e ".[develop]"
-
 ```
 This will install all the dependencies listed in ```requirements.txt``` and ```requirements.dev.txt```. Have a look at them to get an idea with what we're working.
 
