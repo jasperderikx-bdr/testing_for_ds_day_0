@@ -70,7 +70,7 @@ If you run pytest:
 pytest
 ```
 
-you will see that not all tests pass. Open the file: ```tests\test_exercises``` and follow the instructions in the comments.
+you will see that not all tests pass. Open the file: ```tests\test_exercises.py``` and follow the instructions in the comments.
 
 You've completed the assignment if:
 - All tests pass.
