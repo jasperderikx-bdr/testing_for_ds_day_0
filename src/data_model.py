@@ -1,4 +1,6 @@
 def increment(x: int) -> int:
+    if isinstance(x, bool):
+        raise TypeError
     return x + 1
 
 
@@ -12,4 +14,4 @@ class Employee:
         self.age = increment(self.age)
 
     def give_raise(self) -> None:
-        self.salary = increment(self.age)
+        self.salary = increment(self.salary)
